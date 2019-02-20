@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soal_6Activity"
+    android:gravity="center"
+    android:layout_margin="10dp">
+
+    <EditText
+        android:id="@+id/etNamaLengkap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Lengkap"/>
+
+    <EditText
+        android:layout_below="@+id/etNamaLengkap"
+        android:id="@+id/etAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"/>
+
+    <EditText
+        android:layout_below="@+id/etAlamat"
+        android:id="@+id/etNoTelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No Telp"/>
+
+    <EditText
+        android:layout_below="@+id/etNoTelp"
+        android:id="@+id/etJenisKelamin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jenis Kelamin"/>
+
+    <Button
+        android:layout_below="@+id/etNoTelp"
+        android:id="@+id/btKirim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Kirim"
+        android:textSize="25sp"
+        android:textAllCaps="false"/>
+
+
+</RelativeLayout>

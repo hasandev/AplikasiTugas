@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soal_1Activity"
+    android:id="@+id/clSoal7">
+
+    <Button
+        android:id="@+id/btToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tampilkan Toast"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:layout_margin="10dp"/>
+
+</android.support.design.widget.CoordinatorLayout>

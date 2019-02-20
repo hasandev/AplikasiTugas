@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soal_5Activity"
+    android:id="@+id/clSoal5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:id="@+id/etInputSoal5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Text"
+            android:textSize="25sp"/>
+
+        <Button
+            android:layout_below="@+id/etInputSoal5"
+            android:id="@+id/btAlertDialogSoal5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert Dialog"
+            android:textSize="25sp"
+            android:textAllCaps="false"/>
+        <Button
+            android:layout_below="@+id/btAlertDialogSoal5"
+            android:id="@+id/btSnackbarSoal5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Snackbar"
+            android:textSize="25sp"
+            android:textAllCaps="false"/>
+        <Button
+            android:layout_below="@+id/btSnackbarSoal5"
+            android:id="@+id/btToastSoal5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toast"
+            android:textSize="25sp"
+            android:textAllCaps="false"/>
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:layout_margin="10dp">
+
+    <Button
+        android:id="@+id/btToSoal1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soal 1"
+        android:textSize="25sp"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_below="@+id/btToSoal1"
+        android:id="@+id/btToSoal2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soal 2"
+        android:textSize="25sp"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_below="@+id/btToSoal2"
+        android:id="@+id/btToSoal3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soal 3"
+        android:textSize="25sp"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_below="@+id/btToSoal3"
+        android:id="@+id/btToSoal4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soal 4"
+        android:textSize="25sp"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_below="@+id/btToSoal4"
+        android:id="@+id/btToSoal5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soal 5"
+        android:textSize="25sp"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_below="@+id/btToSoal5"
+        android:id="@+id/btToSoal6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soal 6"
+        android:textSize="25sp"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_below="@+id/btToSoal6"
+        android:id="@+id/btToSoal7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soal 7"
+        android:textSize="25sp"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_below="@+id/btToSoal7"
+        android:id="@+id/btToSoal8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soal 8"
+        android:textSize="25sp"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>
